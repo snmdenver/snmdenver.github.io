@@ -1,0 +1,14 @@
+{
+  "name": "jquery.unslider",
+  "homepage": "https://github.com/idiot/unslider",
+  "_release": "2634b4f1c4",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "2634b4f1c4da84d310e3509eae11a21e7bd7596c"
+  },
+  "_source": "git://github.com/idiot/unslider.git",
+  "_target": "*",
+  "_originalSource": "jquery.unslider",
+  "_direct": true
+}

@@ -1,0 +1,9 @@
+- reports = public._data.reports;
+.page
+ h1 Reports
+ each report, slug in reports
+  h2.report
+   a(href='/report/#{slug}') #{report.name}
+   p.date #{report.date}
+
+

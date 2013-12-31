@@ -1,0 +1,13 @@
+- congregations = public._data.congregations
+- branch = public._data.branch
+.page
+ h1 Congregations
+ each congregation, slug in congregations
+  .congregation
+   p.date #{slug}
+   p.time #{congregation.time}
+   address
+    if congregation.bhawan == true
+     | #{branch.address}
+    else
+     | #{congregation.address}

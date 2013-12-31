@@ -1,0 +1,17 @@
+- quickLinks = public._data.sidebar.quickLinks
+.sidebar
+ .item.quickLinks
+  .header
+   p Quick Links
+  .links
+   each link, slug in quickLinks
+    a(href='#{link.href}') #{link.title}
+ .item.about
+  .header
+   p About SNM
+  .abt
+   p 
+    | The Mission seeks to reveal God, also known as Nirankar, 
+    | to all human beings irrespective of their religious faith, sect, or community and thus 
+    | liberate them from the shackles of ignorance, superstition, ritualism, and dogmatism in the 
+    | name of devotion to God. 

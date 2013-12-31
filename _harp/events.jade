@@ -1,0 +1,18 @@
+- events = public._data.events
+- branch = public._data.branch
+.page
+ h1 Events
+ if events
+  each event, slug in events
+   .event
+    p.name #{event.name}
+    p.date #{event.date}
+    p.time #{event.time}
+    address
+     if event.bhawan == true
+      | #{branch.address}
+     else
+     | #{event.address}
+ if !events
+  h2 No upcoming events. Instead, you can attend the 
+   a(href='/congregations') congregation.

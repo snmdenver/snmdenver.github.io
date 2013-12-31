@@ -1,0 +1,7 @@
+- homeImg = public._data.pages.home.img
+- homeContent = public._data.pages.home.content
+.homeCopy
+ if (homeImg != false)
+  img.homeImg(src='#{homeImg}')
+ each item, slug in homeContent
+  p #{item}

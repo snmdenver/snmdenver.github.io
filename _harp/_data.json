@@ -1,0 +1,56 @@
+{
+	"branch": {
+		"name": "Denver",
+		"address": "8380 S Otis St, Littleton, CO 80128"
+	},
+	"pages": {
+		"home": {
+			"img": "http://cdn-media.nirankari.org/includes/images/snmheader.gif",
+			"content": {
+				"one": "Sant Nirankari Mission is an all embracing spiritual movement, cutting across all divisions of caste, color, and creed.",
+				"two": "SNM Denver cordially invites you to the weekly congregation, taking place every Sunday at the following address:",
+				"three": "8380 S Otis St, Littleton, CO 80128"
+			}
+		}
+	},
+	"sidebar": {
+		"quickLinks": {
+			"directions": {
+				"title": "SNM Directions",
+				"href": "http://goo.gl/yk10Vs"
+			},
+			"main": {
+				"title": "Nirankari.org",
+				"href": "http://www.flydenver.com/"
+			},
+			"kids": {
+				"title": "Kids.Nirankari.org",
+				"href": "http://kids.nirankari.org/"
+			}
+		}
+	},
+	"congregations": {
+		"1/1/2014": {
+			"bhawan": true,
+			"time": "5:00 PM - 7:00 PM"
+		},
+		"1/5/2014": {
+			"bhawan": true,
+			"time": "11:00 AM - 1:00 PM"
+		}
+	},
+	"events": {
+		"test": {
+			"name": "New Years Congregation",
+			"time": "5:00 PM - 7:00 PM",
+			"date": "1/1/2014",
+			"bhawan": true
+		}
+	},
+	"reports": {
+		"vivekananda": {
+			"name": "Dharma Yoga Fest",
+			"date": "October 2013"
+		}
+	}
+}

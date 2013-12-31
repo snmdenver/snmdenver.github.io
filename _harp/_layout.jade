@@ -1,0 +1,23 @@
+- branchName = public._data.branch.name;
+doctype 5
+html
+ head
+  title SNM #{branchName}
+  link(href='/main.css', type='text/css', rel='stylesheet')
+  script(src='/assets/bower_components/jquery/jquery.min.js')
+  //script(src='/assets/bower_components/jquery.unslider/src/unslider.min.js')
+ body
+  header
+   h1 SNM #{branchName}
+   nav
+    a(href='/') Home
+    a(href='/congregations') Congregations
+    a(href='/events') Events
+    a(href='/reports') Reports
+    a(href='/gallery') Gallery
+    a(href='/noticeboard') Noticeboard
+    a(href='/youth-pages') Youth Pages
+    a(href='/contacts') Contacts
+  .content
+   != yield
+   != partial('_partials/sidebar')
